@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main-div">
+        <h2 class="main-heading">Traffic Light Simulation</h2>
+        
+        <div class="content-row">
+            <div class="buttons">
+                <button id="btnRed" onclick="onRed()">Stop</button>
+                <button id="btnYellow" onclick="onYellow()">Ready</button>
+                <button id="btnGreen" onclick="onGreen()">Go</button>
+            </div>
+            <div class="trafficSymbol">
+                <div id="red" class="light"></div>
+                <div id="yellow" class="light"></div>
+                <div id="green" class="light"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
